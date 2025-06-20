@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harshith Gudapureddy</title>
+    <title>Harshith Gudapureddy - Cloud Solutions Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Harshith</span>
+                <span class="logo-accent">.</span>
+            </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -19,63 +26,123 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <a href="assets/Resume.pdf" class="resume-btn">
-                <i class="fas fa-download"></i> View Resume
+            <a href="assets/Resume.pdf" target="_blank" class="resume-btn">
+                <i class="fas fa-download"></i>
+                <span>Resume</span>
             </a>
             <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-greeting">👋 Hello, I'm</div>
-            <h1 class="hero-title">Harshith Gudapureddy</h1>
-            <p class="hero-subtitle">Salesforce Developer | Graduate Student | Aspiring Cloud Solutions Architect</p>
-            <p class="hero-description">
-                Passionate about leveraging cloud technologies to drive digital transformation and optimize business processes. 
-                Currently pursuing my Master's in Computer Technology while building expertise in multi-cloud solutions and AI-driven strategies.
-            </p>
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="floating-element" style="top: 20%; left: 10%;"></div>
+                <div class="floating-element" style="top: 60%; right: 15%;"></div>
+                <div class="floating-element" style="top: 80%; left: 20%;"></div>
+                <div class="floating-element" style="top: 30%; right: 30%;"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-greeting">
+                    <span class="greeting-emoji">👋</span>
+                    <span class="greeting-text">Hello, I'm</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-main">Harshith</span>
+                    <span class="title-accent">Gudapureddy</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="subtitle-item">Salesforce Developer</span>
+                    <span class="subtitle-separator">•</span>
+                    <span class="subtitle-item">Graduate Student</span>
+                    <span class="subtitle-separator">•</span>
+                    <span class="subtitle-item">Cloud Solutions Architect</span>
+                </div>
+                <p class="hero-description">
+                    Passionate about leveraging cloud technologies to drive digital transformation and optimize business processes. 
+                    Currently pursuing my Master's in Computer Technology while building expertise in multi-cloud solutions and AI-driven strategies.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn-primary">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#about" class="btn-secondary">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="about" class="section about">
         <div class="container">
-            <div class="about-content reveal">
+            <div class="section-header">
+                <span class="section-label">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content">
                 <div class="about-image">
                     <div class="profile-card">
                         <div class="profile-img">
-                            <div class="profile-placeholder">👨‍💻</div>
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
                         </div>
+                        <div class="profile-glow"></div>
                     </div>
                 </div>
+                
                 <div class="about-text">
-                    <h3>My Journey in Technology</h3>
-                    <p>
-                        I'm currently pursuing my Master's in Computer Technology at Eastern Illinois University, building upon my foundation in Electrical and Electronics Engineering from Manipal Institute of Technology. With 3 years of hands-on experience as a Salesforce Developer at Perfaware, I've had the opportunity to explore various Salesforce clouds, particularly specializing in Commerce Cloud and Order Management systems.
-                    </p>
-                    <p>
-                        My professional journey has been enriched by working on complex eCommerce solutions, where I've implemented features like Walmart Go Local integration, Future Inventory Reservation, and Backorder Management Solutions. These experiences have given me deep insights into how technology can streamline business operations and enhance customer experiences.
-                    </p>
-                    <p>
-                        Currently, I balance my studies with my role as a Graduate Assistant, where I develop web applications for various university departments using PHP, JavaScript, and MySQL. I hold certifications in Salesforce B2C Commerce Developer, Salesforce Administrator, and Salesforce AI Associate, and I'm actively expanding my expertise into AWS cloud services.
-                    </p>
+                    <h3 class="about-heading">My Journey in Technology</h3>
+                    <div class="about-paragraphs">
+                        <p class="about-paragraph">
+                            I'm currently pursuing my Master's in Computer Technology at Eastern Illinois University, building upon my foundation in Electrical and Electronics Engineering from Manipal Institute of Technology. With 3 years of hands-on experience as a Salesforce Developer at Perfaware, I've had the opportunity to explore various Salesforce clouds, particularly specializing in Commerce Cloud and Order Management systems.
+                        </p>
+                        <p class="about-paragraph">
+                            My professional journey has been enriched by working on complex eCommerce solutions, where I've implemented features like Walmart Go Local integration, Future Inventory Reservation, and Backorder Management Solutions. These experiences have given me deep insights into how technology can streamline business operations and enhance customer experiences.
+                        </p>
+                        <p class="about-paragraph">
+                            Currently, I balance my studies with my role as a Graduate Assistant, where I develop web applications for various university departments using PHP, JavaScript, and MySQL. I hold certifications in Salesforce B2C Commerce Developer, Salesforce Administrator, and Salesforce AI Associate, and I'm actively expanding my expertise into AWS cloud services.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="stats reveal">
-                <div class="stat-item">
-                    <span class="stat-number">3+</span>
-                    <span class="stat-label">Years Experience</span>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-number">4</span>
-                    <span class="stat-label">Certifications</span>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-number">10+</span>
-                    <span class="stat-label">Technologies Mastered</span>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,13 +150,22 @@
 
     <section id="skills" class="section skills">
         <div class="container">
-            <h2 class="section-title">Technical Expertise</h2>
+            <div class="section-header">
+                <span class="section-label">What I do</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
             
             <div class="skills-grid">
-                <div class="skill-card reveal">
-                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-                    <h4>Salesforce Ecosystem</h4>
-                    <p>Deep expertise in Salesforce platform development, specializing in Commerce Cloud and Order Management solutions.</p>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-salesforce"></i>
+                        </div>
+                        <h4 class="skill-title">Salesforce Ecosystem</h4>
+                    </div>
+                    <p class="skill-description">
+                        Deep expertise in Salesforce platform development, specializing in Commerce Cloud and Order Management solutions.
+                    </p>
                     <div class="skill-tags">
                         <span class="skill-tag">Commerce Cloud</span>
                         <span class="skill-tag">Lightning Platform</span>
@@ -98,10 +174,16 @@
                     </div>
                 </div>
                 
-                <div class="skill-card reveal">
-                    <div class="skill-icon"><i class="fas fa-code"></i></div>
-                    <h4>Development Stack</h4>
-                    <p>Full-stack development capabilities with experience in web applications and database management.</p>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="skill-title">Development Stack</h4>
+                    </div>
+                    <p class="skill-description">
+                        Full-stack development capabilities with experience in web applications and database management.
+                    </p>
                     <div class="skill-tags">
                         <span class="skill-tag">JavaScript</span>
                         <span class="skill-tag">PHP</span>
@@ -111,15 +193,21 @@
                     </div>
                 </div>
                 
-                <div class="skill-card reveal">
-                    <div class="skill-icon"><i class="fas fa-aws"></i></div>
-                    <h4>Cloud & Emerging Tech</h4>
-                    <p>Expanding expertise in AWS cloud services and AI technologies to build comprehensive multi-cloud solutions.</p>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h4 class="skill-title">Cloud & AI</h4>
+                    </div>
+                    <p class="skill-description">
+                        Expanding expertise in AWS cloud services and AI technologies to build comprehensive multi-cloud solutions.
+                    </p>
                     <div class="skill-tags">
                         <span class="skill-tag">AWS Console</span>
                         <span class="skill-tag">AI Integration</span>
-                        <span class="skill-tag">Multi-Cloud Architecture</span>
-                        <span class="skill-tag">Business Process Optimization</span>
+                        <span class="skill-tag">Multi-Cloud</span>
+                        <span class="skill-tag">DevOps</span>
                     </div>
                 </div>
             </div>
@@ -128,32 +216,47 @@
 
     <section id="experience" class="section experience">
         <div class="container">
-            <h2 class="section-title">Professional Journey</h2>
+            <div class="section-header">
+                <span class="section-label">My journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
             
             <div class="timeline">
-                <div class="timeline-item reveal">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">May 2025 - Present • 2 mos</div>
+                        <div class="timeline-header">
+                            <div class="timeline-date">May 2025 - Present</div>
+                            <div class="timeline-duration">2 months</div>
+                        </div>
                         <h4 class="timeline-title">DevOps Engineer</h4>
                         <div class="timeline-company">Perfaware • Internship • Remote</div>
-                        <p>Supporting deployment processes and ensuring platform stability for clients using Salesforce. Responsibilities include analyzing alerts received through New Relic, debugging functional or system issues, following incident management protocols, and coordinating with appropriate teams for resolution. Also assist with configuring jobs, services, and custom controllers in the Salesforce Business Manager, contributing to the performance optimization of commerce and CRM applications.</p>
+                        <p class="timeline-description">
+                            Supporting deployment processes and ensuring platform stability for clients using Salesforce. Responsibilities include analyzing alerts received through New Relic, debugging functional or system issues, following incident management protocols, and coordinating with appropriate teams for resolution.
+                        </p>
                         <div class="timeline-skills">
                             <span class="skill-badge">DevOps</span>
-                            <span class="skill-badge">Salesforce Platform</span>
                             <span class="skill-badge">New Relic</span>
                             <span class="skill-badge">Incident Management</span>
+                            <span class="skill-badge">Salesforce</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="timeline-item reveal">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">Feb 2025 - Present • 5 mos</div>
+                        <div class="timeline-header">
+                            <div class="timeline-date">Feb 2025 - Present</div>
+                            <div class="timeline-duration">5 months</div>
+                        </div>
                         <h4 class="timeline-title">Graduate Assistant</h4>
                         <div class="timeline-company">Eastern Illinois University • Contract</div>
-                        <p>As a Web Application Developer in the Department of Institutional Research and Business Operations, I design and maintain PHP- and MySQL-based applications that streamline operations for multiple university departments. Built and maintained 5+ internal web applications that improved data collection accuracy and reduced manual reporting efforts. Collaborated with department heads to develop tailored solutions, enhancing workflow efficiency and reducing dependency on external tools. Ensured security, scalability, and responsiveness across applications serving over 500 users.</p>
+                        <p class="timeline-description">
+                            Web Application Developer in the Department of Institutional Research and Business Operations. Built and maintained 5+ internal applications that improved data collection accuracy and reduced manual reporting efforts for 500+ users.
+                        </p>
                         <div class="timeline-skills">
-                            <span class="skill-badge">Web Application Development</span>
+                            <span class="skill-badge">Web Development</span>
                             <span class="skill-badge">PHP</span>
                             <span class="skill-badge">MySQL</span>
                             <span class="skill-badge">JavaScript</span>
@@ -161,18 +264,23 @@
                     </div>
                 </div>
                 
-                <div class="timeline-item reveal">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">Sep 2021 - Aug 2024 • 3 yrs</div>
+                        <div class="timeline-header">
+                            <div class="timeline-date">Sep 2021 - Aug 2024</div>
+                            <div class="timeline-duration">3 years</div>
+                        </div>
                         <h4 class="timeline-title">Salesforce Developer</h4>
                         <div class="timeline-company">Perfaware • Full-time</div>
-                        <p>Worked as a Salesforce Developer across multiple high-impact projects focused on B2C commerce and order management, driving operational efficiency and improved customer experiences. Developed and optimized order sourcing workflows for Walmart GoLocal, improving fulfillment turnaround by 25%. Led the design of a custom appointment scheduling tool for Bell Aliant, increasing customer self-service booking rates by 60%. Contributed to HBC's page performance optimization, cutting load times by over 35% and enhancing engagement on Salesforce-driven pages. Spearheaded enhancements in backorder and pre-order management logic, resulting in a 20% reduction in support tickets related to order delays.</p>
+                        <p class="timeline-description">
+                            Led multiple high-impact B2C commerce projects. Improved Walmart GoLocal fulfillment by 25%, increased Bell Aliant self-service bookings by 60%, and reduced HBC page load times by 35%. Achieved 20% reduction in order-related support tickets.
+                        </p>
                         <div class="timeline-skills">
-                            <span class="skill-badge">Salesforce Development</span>
+                            <span class="skill-badge">Salesforce</span>
                             <span class="skill-badge">B2C Commerce</span>
                             <span class="skill-badge">Order Management</span>
                             <span class="skill-badge">Apex</span>
-                            <span class="skill-badge">Lightning Platform</span>
                         </div>
                     </div>
                 </div>
@@ -182,57 +290,93 @@
 
     <section id="vision" class="section vision">
         <div class="container">
-            <h2 class="section-title">My Vision for the Next 5 Years</h2>
+            <div class="section-header">
+                <span class="section-label">Looking ahead</span>
+                <h2 class="section-title">My Vision</h2>
+            </div>
             
             <div class="vision-content">
-                <p>
-                    In the next five years, I envision myself as a strong leader and accomplished Cloud Solutions Architect, capable of designing and implementing comprehensive multi-cloud strategies that drive business transformation. My goal is to become the bridge between complex technical capabilities and strategic business objectives, helping organizations optimize efficiency and streamline their operations through innovative cloud solutions.
-                </p>
-                <br>
-                <p>
-                    I plan to achieve this by continuously expanding my expertise across multiple cloud platforms, with immediate focus on obtaining my AWS Cloud Practitioner certification to complement my existing Salesforce specialization. By combining my deep understanding of Salesforce ecosystems with robust AWS cloud services knowledge, I'll be positioned to architect hybrid solutions that leverage the best of each platform.
-                </p>
-                <br>
-                <p>
-                    My ultimate aspiration is to lead teams in designing solutions that not only meet technical requirements but also deliver measurable business value, enhance customer experiences, and drive digital innovation. I want to be recognized as a strategic technology leader who can guide organizations through their cloud transformation journey with confidence and expertise.
-                </p>
+                <div class="vision-card">
+                    <div class="vision-text">
+                        <p>
+                            In the next five years, I envision myself as a strong leader and accomplished Cloud Solutions Architect, capable of designing and implementing comprehensive multi-cloud strategies that drive business transformation.
+                        </p>
+                        <p>
+                            My goal is to become the bridge between complex technical capabilities and strategic business objectives, helping organizations optimize efficiency through innovative cloud solutions.
+                        </p>
+                        <p>
+                            I want to be recognized as a strategic technology leader who can guide organizations through their cloud transformation journey with confidence and expertise.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="projects" class="section projects">
         <div class="container">
-            <h2 class="section-title">Projects</h2>
+            <div class="section-header">
+                <span class="section-label">My work</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
             
-            <div class="coming-soon">
-                <h3><i class="fas fa-rocket"></i> Coming Soon!</h3>
-                <p>
-                    I'm currently working on several exciting projects that showcase my expertise in cloud solutions, 
-                    Salesforce development, and web applications. 
-                </p>
+            <div class="projects-content">
+                <div class="coming-soon-card">
+                    <div class="coming-soon-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="coming-soon-title">Exciting Projects Coming Soon</h3>
+                    <p class="coming-soon-description">
+                        I'm currently developing several innovative projects that showcase my expertise in cloud solutions, 
+                        Salesforce development, and modern web applications. Stay tuned for updates!
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="section contact">
         <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
+            <div class="section-header">
+                <span class="section-label">Get in touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
             
             <div class="contact-grid">
-                <div class="contact-item">
-                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-                    <h4>Email</h4>
-                    <p><a href="mailto:gharshith2000@gmail.com">gharshith2000@gmail.com</a></p>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-content">
+                        <h4 class="contact-title">Email</h4>
+                        <a href="mailto:gharshith2000@gmail.com" class="contact-link">
+                            gharshith2000@gmail.com
+                        </a>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
-                    <h4>LinkedIn</h4>
-                    <p><a href="https://linkedin.com/in/harshith-gudapureddy" target="_blank">Connect with me professionally</a></p>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="contact-content">
+                        <h4 class="contact-title">LinkedIn</h4>
+                        <a href="https://linkedin.com/in/harshith-gudapureddy" target="_blank" class="contact-link">
+                            Connect professionally
+                        </a>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
-                    <h4>Phone</h4>
-                    <p><a href="tel:+12177905773">+1 (217) 790-5773</a></p>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-content">
+                        <h4 class="contact-title">Phone</h4>
+                        <a href="tel:+12177905773" class="contact-link">
+                            +1 (217) 790-5773
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -240,7 +384,19 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Harshith Gudapureddy. All rights reserved. </p>
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Harshith Gudapureddy. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://linkedin.com/in/harshith-gudapureddy" target="_blank" class="footer-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:gharshith2000@gmail.com" class="footer-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
 
