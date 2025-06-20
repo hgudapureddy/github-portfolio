@@ -461,6 +461,23 @@ body {
     font-size: 1rem;
     line-height: 1.7;
     color: var(--text-secondary);
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: var(--space-lg);
+}
+
+/* Alternative fallback for about text */
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-lg);
+    opacity: 1;
+    visibility: visible;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
 }
 
 /* Stats Grid */

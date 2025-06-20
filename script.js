@@ -89,12 +89,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Resume button functionality
     if (resumeBtn) {
         resumeBtn.addEventListener('click', function(e) {
-            // Check if the href is a placeholder
-            if (this.getAttribute('href') === '#' || this.getAttribute('href') === 'assets/Resume.pdf') {
-                e.preventDefault();
-                showResumeModal();
-            }
-            // If it's a real PDF link, let it proceed normally
+            // Let the browser handle the PDF download naturally
+            // The href="assets/Resume.pdf" will work if the file exists
+            console.log('Resume button clicked - attempting to open:', this.getAttribute('href'));
         });
     }
     
